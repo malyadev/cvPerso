@@ -12,6 +12,17 @@
 <body>
 
 <header>
+    <div id="navbar">
+    <?php
+    include "navbar.php";
+    ?>
+    </div>
+
+    <div id="presentation">
+        <?php
+        include "presentation.php";
+        ?>
+    </div>
 
 </header>
 
