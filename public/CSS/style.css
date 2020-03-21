@@ -38,4 +38,9 @@
 
 body {
     background-color: var(--light);
+
+}
+
+h1,h2, h3 {
+    font-family: var(--main-font);
 }

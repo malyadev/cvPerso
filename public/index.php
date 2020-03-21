@@ -28,6 +28,7 @@
 </header>
 
 <main>
+
 <div id="formation">
     <?php
     include "formation.php";
