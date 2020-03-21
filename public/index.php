@@ -27,11 +27,35 @@
 </header>
 
 <main>
+<div id="formation">
+    <?php
+    include "formation.php";
+    ?>
+</div>
 
+<div id="experience">
+    <?php
+    include "experience.php";
+    ?>
+</div>
+
+<div id="interets">
+    <?php
+    include "interets.php";
+    ?>
+</div>
+
+<div id="contact">
+    <?php
+    include "contact.php";
+    ?>
+</div>
 </main>
 
-<footer>
-
+<footer id="footer">
+    <?php
+    include "footer.php";
+    ?>
 </footer>
 
 </body>
