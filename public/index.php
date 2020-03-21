@@ -35,7 +35,7 @@
     ?>
 </div>
 
-<div id="experience">
+<div>
     <?php
     include "experience.php";
     ?>

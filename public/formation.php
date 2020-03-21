@@ -1,21 +1,15 @@
-<section id="formation">
+<section id='formation'>
     <h2>Formation</h2>
 
-    <ul>
-        <?php
-        $formations = [
-            "Développeur Web et Mobile" => "Wild Code School Orléans",
-            "Développeur Web" => "Udemy",
-            "Licence Droit Economie Gestion" => "Cnam Orléans"
-        ];
+    <?php
+    $formations = [
+        'Développeur Web et Mobile' => 'periodes' => 'durée''Mars 2020 - Aout 2020', 'Wild Code School Orléans',
+        'Développeur Web' => 'Juillet - Aout 2019', 'Udemy',
+        'Licence Droit Economie Gestion' => 'Octobre 2018 - Mars 2020', 'Cnam Orléans'
+    ];
 
-        foreach($formations as $formation => $lieu) { ?>
-
-        <li>
-            <h3 class=""> <?= $formation ?> </h3>
-            <p class=""> <?= $lieu ?> </p>
-        </li>
-        <?php };?>
-    </ul>
-
-</section>
+    foreach ($formations as $formation => $periode) { ?>
+    <div>
+        <section> <?= $formation . $periode ?> </section>
+    </div>
+    <?php } ?>
