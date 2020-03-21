@@ -13,13 +13,13 @@
 <body>
 
 <header>
-    <div /*id="navbar"*/>
+    <div>
     <?php
     include "navbar.php";
     ?>
     </div>
 
-    <div id="presentation">
+    <div>
         <?php
         include "presentation.php";
         ?>

@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+}
+
+#presentation {
+    padding-top: var(--spacing);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80vh;
+    font-family: var(--main-font);
+    font-size: var(--medium-size);
+}
+
+#show {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#show div:first-child {
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+}
+
+#show img {
+    width: 40vw;
+    border-radius: 50%;
+}
