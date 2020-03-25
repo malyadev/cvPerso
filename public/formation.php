@@ -1,15 +1,32 @@
 <section id='formation'>
     <h2>Formation</h2>
-
     <?php
-    $formations = [
-        'Développeur Web et Mobile' => 'periodes' => 'durée''Mars 2020 - Aout 2020', 'Wild Code School Orléans',
-        'Développeur Web' => 'Juillet - Aout 2019', 'Udemy',
-        'Licence Droit Economie Gestion' => 'Octobre 2018 - Mars 2020', 'Cnam Orléans'
-    ];
 
-    foreach ($formations as $formation => $periode) { ?>
-    <div>
-        <section> <?= $formation . $periode ?> </section>
+
+$formations = [
+    'Développeur Web et Mobile' => ['Wild Code School Orléans', 'Mars - Aout 2020'],
+    'Développeur Web' => ['Udemy', 'Juillet - Aout 2019'],
+    'Licence Droit Economie Gestion' => ['CNAM Orléans', 'Octobre 2018 - Mars 2020'],];
+?>
+
+
+    <div class="formations">
+
+        <?php foreach($formations as $formation => $detail) : ?>
+        <div>
+            <h3><?= $formation ?></h3>
+            <ul>
+                <li>
+                    <?= $detail[0]?>
+                </li>
+                <li>
+                    <?= $detail[1]?>
+                </li>
+            </ul>
+        </div>
+        <?php endforeach; ?>
     </div>
-    <?php } ?>
+
+
+
+

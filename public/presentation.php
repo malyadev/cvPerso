@@ -9,7 +9,7 @@
             <h3>PHP Symphony</h3>
         </div>
             <figure>
-                <img src="images/portrait.jpeg" alt="">
+                <img src="public/images/portrait.jpeg" alt="">
                 <figcaption></figcaption>
             </figure>
         <p>Lorem ipsum</p>
