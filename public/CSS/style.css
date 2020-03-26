@@ -4,6 +4,8 @@
 @import "experience.css";
 @import "formation.css";
 @import "interets.css";
+@import "contact.css";
+@import "contactest.css";
 
 
 * {
@@ -18,8 +20,8 @@
 
     --main-color: #34495E;
     --text-color: #F7F9FC;
-    /*--dark: rgb(29, 28, 28);
-    --dark-sec: rgb(54, 51, 51);*/
+    --dark: rgb(29, 28, 28);
+    /*--dark-sec: rgb(54, 51, 51);*/
     --light: #EAF1F7;
     --main-font: 'Baloo 2', cursive;
     --title-font: 'Permanent Marker', cursive;
@@ -41,6 +43,7 @@ body {
 
 }
 
-h1,h2, h3 {
+h1,h2,h3 {
     font-family: var(--main-font);
+    text-align: center;
 }
