@@ -1,0 +1,14 @@
+h2 {
+    text-align: center;
+    padding: 4vh;
+}
+
+.formations {
+    display: flex;
+    justify-content: space-around;
+}
+
+li {
+    text-align: center;
+    padding: 2vh;
+}

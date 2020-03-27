@@ -1,0 +1,89 @@
+#form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 450px;
+    background: var(--back);
+    padding: 30px;
+    margin: 50px auto;
+    box-shadow: 1px 1px 10px var(--dark);
+    border-radius: 10px;
+    border: 3px solid #305A72;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1vh;
+}
+
+form input {
+    width : 200px;
+    height: 4vh;
+    padding: 7px;
+    border: 1px solid var(--main-color);
+    -webkit-transition: all 0.30s ease-in-out;
+}
+
+form input:focus {
+    box-shadow: 0 0 3px var(--dark-sec);
+}
+
+#nomprenom, #mailtel {
+    display: flex;
+}
+
+button {
+    background-color: var(--main-color);
+    margin-top: 20px;
+    width: 10vw;
+    height: 4vh;
+    color: var(--text-color);
+    cursor: pointer;
+}
+
+.form textarea {
+    width: 300%;
+    height: 100px;
+}
+
+label {
+    margin: 5px;
+}
+
+#message {
+    margin-top: 20px;
+}
+
+#reseaux {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+    flex-direction: row;
+}
+
+#reseaux img {
+    width: 100px;
+}
+
+#linkedin img {
+    width: 170px;
+}
+
+#github figure, #linkedin figure, #gmail figure  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+figcaption {
+    margin: 10px;
+}
+
+#reseaux a, #reseaux a:visited {
+    text-decoration: none;
+    color: var(--main-color);
+}

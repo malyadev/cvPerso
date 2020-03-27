@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding : var(--spacing-sm);
+    font-family: var(--navbar-font);
+    height: 15vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: var(--medium-size);
+    width: 50%;
+    background-color: var(--main-color);
+}
+
+.navbar a, .navbar a:visited, .navbar a:hover {
+    text-decoration: none;
+    color : var(--text-color);
+}
+
+.navbar a:visited, .navbar a:hover {
+
+}
