@@ -21,8 +21,9 @@
     --main-color: #34495E;
     --text-color: #F7F9FC;
     --dark: rgb(29, 28, 28);
-    /*--dark-sec: rgb(54, 51, 51);*/
+    --dark-sec: rgb(54, 51, 51);
     --light: #EAF1F7;
+    --back: #FAFAFA;
     --main-font: 'Baloo 2', cursive;
     --title-font: 'Permanent Marker', cursive;
     --navbar-font : 'Baloo 2', cursive;
